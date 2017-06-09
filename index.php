@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-	<script>document.write('<base href="' + document.location + '" />');</script>
+	<base href="/"/>
 	<meta charset="utf-8">
 	<title>VivRan Web</title>
 	
