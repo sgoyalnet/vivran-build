@@ -20,6 +20,7 @@ webpackEmptyContext.id = "../../../../../src async recursive";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("../../../core/@angular/core.es5.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_router__ = __webpack_require__("../../../router/@angular/router.es5.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__urlencodedecode_urlencodedecode_component__ = __webpack_require__("../../../../../src/app/urlencodedecode/urlencodedecode.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__base64encodedecode_base64encodedecode_component__ = __webpack_require__("../../../../../src/app/base64encodedecode/base64encodedecode.component.ts");
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppRoutingModule; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -30,10 +31,11 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
+
 var routes = [
     { path: '', redirectTo: '/urlencodedecode', pathMatch: 'full' },
     { path: 'urlencodedecode', component: __WEBPACK_IMPORTED_MODULE_2__urlencodedecode_urlencodedecode_component__["a" /* UrlEncodeDecodeComponent */] },
-    { path: 'base64', component: __WEBPACK_IMPORTED_MODULE_2__urlencodedecode_urlencodedecode_component__["a" /* UrlEncodeDecodeComponent */] },
+    { path: 'base64encodedecode', component: __WEBPACK_IMPORTED_MODULE_3__base64encodedecode_base64encodedecode_component__["a" /* Base64EncodeDecodeComponent */] },
 ];
 var AppRoutingModule = (function () {
     function AppRoutingModule() {
@@ -72,7 +74,7 @@ module.exports = module.exports.toString();
 /***/ "../../../../../src/app/app.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"parent\">\n\t<div class=\"header-bar\"></div>\n\t<ul class=\"nav nav-tabs\" id=\"headerTab\">\n\t\t<li><a class=\"brand-viv\"><b>VivRan</b></a></li>\n\t\t<li routerLinkActive=\"active\" class=\"hidden-xs\"><a routerLink=\"/urlencodedecode\">URL Encoder/Decoder</a></li>\n\t\t<li routerLinkActive=\"active\" class=\"hidden-xs\"><a routerLink=\"/base64\">Base64 Encoder/Decoder</a></li>\n\t\t<li class=\"dropdown visible-xs\">\n\t\t\t<a class=\"dropdown-toggle\" data-toggle=\"dropdown\">\n\t\t\t\tMenu <span class=\"caret\"></span>\n\t\t\t</a>\n\t\t\t<ul class=\"dropdown-menu\" role=\"menu\">\n\t\t\t\t<li routerLinkActive=\"active\"><a routerLink=\"/urlencodedecode\">URL Encoder/Decoder</a></li>\n\t\t\t\t<li routerLinkActive=\"active\"><a routerLink=\"/base64\">Base64 Encoder/Decoder</a></li>\n\t\t\t</ul>\n  \t\t</li>\n\t</ul>\n\t<div class=\"container-fluid\">\n\t\t<router-outlet></router-outlet>\n\t</div>\n\t<footer class=\"pull-right\">&copy; <a href=\"https://sgoyal.net\">sgoyal.net</a></footer>\n</div>"
+module.exports = "<div class=\"parent\">\n\t<div class=\"header-bar\"></div>\n\t<ul class=\"nav nav-tabs\" id=\"headerTab\">\n\t\t<li><a class=\"brand-viv\"><b>VivRan</b></a></li>\n\t\t<li routerLinkActive=\"active\" class=\"hidden-xs\"><a routerLink=\"/urlencodedecode\">URL Encoder/Decoder</a></li>\n\t\t<li routerLinkActive=\"active\" class=\"hidden-xs\"><a routerLink=\"/base64encodedecode\">Base64 Encoder/Decoder</a></li>\n\t\t<li class=\"dropdown visible-xs\">\n\t\t\t<a class=\"dropdown-toggle\" data-toggle=\"dropdown\">\n\t\t\t\tMenu <span class=\"caret\"></span>\n\t\t\t</a>\n\t\t\t<ul class=\"dropdown-menu\" role=\"menu\">\n\t\t\t\t<li routerLinkActive=\"active\"><a routerLink=\"/urlencodedecode\">URL Encoder/Decoder</a></li>\n\t\t\t\t<li routerLinkActive=\"active\"><a routerLink=\"/base64encodedecode\">Base64 Encoder/Decoder</a></li>\n\t\t\t</ul>\n  \t\t</li>\n\t</ul>\n\t<div class=\"container-fluid\">\n\t\t<router-outlet></router-outlet>\n\t</div>\n\t<footer class=\"pull-right\">&copy; <a href=\"https://sgoyal.net\">sgoyal.net</a></footer>\n</div>"
 
 /***/ }),
 
@@ -114,8 +116,9 @@ AppComponent = __decorate([
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__ = __webpack_require__("../../../platform-browser/@angular/platform-browser.es5.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__("../../../core/@angular/core.es5.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__urlencodedecode_urlencodedecode_module__ = __webpack_require__("../../../../../src/app/urlencodedecode/urlencodedecode.module.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__app_routing_module__ = __webpack_require__("../../../../../src/app/app-routing.module.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__app_component__ = __webpack_require__("../../../../../src/app/app.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__base64encodedecode_base64encodedecode_module__ = __webpack_require__("../../../../../src/app/base64encodedecode/base64encodedecode.module.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__app_routing_module__ = __webpack_require__("../../../../../src/app/app-routing.module.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__app_component__ = __webpack_require__("../../../../../src/app/app.component.ts");
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppModule; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -123,6 +126,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
+
 
 
 
@@ -136,19 +140,150 @@ var AppModule = (function () {
 AppModule = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__angular_core__["b" /* NgModule */])({
         declarations: [
-            __WEBPACK_IMPORTED_MODULE_4__app_component__["a" /* AppComponent */]
+            __WEBPACK_IMPORTED_MODULE_5__app_component__["a" /* AppComponent */]
         ],
         imports: [
             __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["a" /* BrowserModule */],
-            __WEBPACK_IMPORTED_MODULE_3__app_routing_module__["a" /* AppRoutingModule */],
-            __WEBPACK_IMPORTED_MODULE_2__urlencodedecode_urlencodedecode_module__["a" /* UrlEncoDedecodeModule */]
+            __WEBPACK_IMPORTED_MODULE_4__app_routing_module__["a" /* AppRoutingModule */],
+            __WEBPACK_IMPORTED_MODULE_2__urlencodedecode_urlencodedecode_module__["a" /* UrlEncoDedecodeModule */],
+            __WEBPACK_IMPORTED_MODULE_3__base64encodedecode_base64encodedecode_module__["a" /* Base64EncoDedecodeModule */]
         ],
         providers: [__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["b" /* Title */]],
-        bootstrap: [__WEBPACK_IMPORTED_MODULE_4__app_component__["a" /* AppComponent */]]
+        bootstrap: [__WEBPACK_IMPORTED_MODULE_5__app_component__["a" /* AppComponent */]]
     })
 ], AppModule);
 
 //# sourceMappingURL=app.module.js.map
+
+/***/ }),
+
+/***/ "../../../../../src/app/base64encodedecode/base64encodedecode.component.ts":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("../../../core/@angular/core.es5.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_platform_browser__ = __webpack_require__("../../../platform-browser/@angular/platform-browser.es5.js");
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Base64EncodeDecodeComponent; });
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+var Base64EncodeDecodeComponent = (function () {
+    function Base64EncodeDecodeComponent(titleService) {
+        this.titleService = titleService;
+        this.model = { str: '', originalStr: '' };
+    }
+    ;
+    Base64EncodeDecodeComponent.prototype.ngOnInit = function () {
+        this.titleService.setTitle('VivRan || Base64 Encoder/Decoder');
+    };
+    // events
+    Base64EncodeDecodeComponent.prototype.onTyping = function (event) {
+        this.model.str = event.target.value;
+    };
+    Base64EncodeDecodeComponent.prototype.encodestr = function () {
+        this.model.originalStr = this.model.originalStr == '' ? this.model.str : this.model.originalStr;
+        this.model.str = btoa(this.model.str);
+    };
+    Base64EncodeDecodeComponent.prototype.toSolidBytes = function (match, p1) {
+        return String.fromCharCode(parseInt('0x') + p1);
+    };
+    Base64EncodeDecodeComponent.prototype.decodestr = function () {
+        this.model.str = atob(this.model.str);
+    };
+    Base64EncodeDecodeComponent.prototype.reset = function () {
+        this.model.str = this.model.originalStr;
+        this.model.originalStr = '';
+    };
+    Base64EncodeDecodeComponent.prototype.clear = function () {
+        this.model.originalStr = '';
+        this.model.str = '';
+    };
+    Object.defineProperty(Base64EncodeDecodeComponent.prototype, "diagnostic", {
+        //debug
+        get: function () { return JSON.stringify(this.model); },
+        enumerable: true,
+        configurable: true
+    });
+    return Base64EncodeDecodeComponent;
+}());
+Base64EncodeDecodeComponent = __decorate([
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_0" /* Component */])({
+        selector: 'base64-code',
+        template: __webpack_require__("../../../../../src/app/base64encodedecode/base64encodedecode.template.html"),
+        styles: [__webpack_require__("../../../../../src/app/base64encodedecode/base64encodedecode.style.css")]
+    }),
+    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1__angular_platform_browser__["b" /* Title */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__angular_platform_browser__["b" /* Title */]) === "function" && _a || Object])
+], Base64EncodeDecodeComponent);
+
+var _a;
+//# sourceMappingURL=base64encodedecode.component.js.map
+
+/***/ }),
+
+/***/ "../../../../../src/app/base64encodedecode/base64encodedecode.module.ts":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("../../../core/@angular/core.es5.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__base64encodedecode_component__ = __webpack_require__("../../../../../src/app/base64encodedecode/base64encodedecode.component.ts");
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Base64EncoDedecodeModule; });
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+var Base64EncoDedecodeModule = (function () {
+    function Base64EncoDedecodeModule() {
+    }
+    return Base64EncoDedecodeModule;
+}());
+Base64EncoDedecodeModule = __decorate([
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["b" /* NgModule */])({
+        declarations: [
+            __WEBPACK_IMPORTED_MODULE_1__base64encodedecode_component__["a" /* Base64EncodeDecodeComponent */]
+        ],
+        imports: [],
+        providers: []
+    })
+], Base64EncoDedecodeModule);
+
+//# sourceMappingURL=base64encodedecode.module.js.map
+
+/***/ }),
+
+/***/ "../../../../../src/app/base64encodedecode/base64encodedecode.style.css":
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, "textarea[name=url] {\r\n    width: 100%;\r\n    height: 400px;\r\n    margin-top: 20px;\r\n}\r\n\r\ntextarea {\r\n    width: 100%;\r\n    height: 200px;\r\n    resize: none;\r\n}", ""]);
+
+// exports
+
+
+/*** EXPORTS FROM exports-loader ***/
+module.exports = module.exports.toString();
+
+/***/ }),
+
+/***/ "../../../../../src/app/base64encodedecode/base64encodedecode.template.html":
+/***/ (function(module, exports) {
+
+module.exports = "<form>\r\n\t<div class=\"row\">\r\n\t\t<div class=\"col-md-6\">\r\n\t\t\t<div class=\"row\">\r\n\t\t\t\t<div class=\"col-md-12\">\r\n\t\t\t\t\t<div class=\"form-group\">\r\n\t\t\t\t\t\t<textarea name=\"url\" (keyup)=\"onTyping($event)\" [value]=\"model.str\"></textarea>\r\n\t\t\t\t\t</div>\r\n\t\t\t\t</div>\r\n\t\t\t</div>\r\n\t\t\t<div class=\"row\">\r\n\t\t\t\t<div class=\"col-md-12\">\r\n                    <button class=\"btn btn-default\" (click)=\"clear()\" type=\"button\">Clear</button>\r\n                    <button class=\"btn btn-default\" (click)=\"reset()\" type=\"button\">Reset</button>\r\n\t\t\t\t\t<div class=\"pull-right\">\r\n\t\t\t\t\t\t<button class=\"btn btn-primary\" (click)=\"encodestr()\" type=\"button\">Encode</button>\r\n\t\t\t\t\t\t<button class=\"btn btn-primary\" (click)=\"decodestr()\" type=\"button\">Decode</button>\r\n\t\t\t\t\t</div>\r\n\t\t\t\t</div>\r\n\t\t\t</div>\r\n\r\n\t\t</div>\r\n\t\t<div class=\"col-md-6\">\r\n\t\t\t<div class=\"row\">\r\n\t\t\t\t<div class=\"col-md-12\">\r\n\t\t\t\t\tInput Text Was\r\n\t\t\t\t</div>\r\n\t\t\t</div>\r\n\t\t\t<div class=\"row\">\r\n\t\t\t\t<div class=\"col-md-12\">\r\n\t\t\t\t\t<textarea class=\"original-url\" [value]=\"model.originalStr\" readonly></textarea>\r\n\t\t\t\t</div>\r\n\t\t\t</div>\r\n\t\t</div>\r\n\t</div>\r\n</form>\r\n<hr>\r\n<div class=\"row\">\r\n\t<div class=\"col-md-12\">\r\n\t\t<ul>\r\n\t\t\t<li>Paste your text in above textarea and click on Encode/Decode button.</li>\r\n            <li>textarea in right side contains your original text.</li>\r\n            <li>Reset button will reset your current session and copy your original text to workspace textarea.</li>\r\n            <li>Clear button will clear your working session including your original text.</li>\r\n\t\t</ul>\r\n\t</div>\r\n</div>"
 
 /***/ }),
 
@@ -177,7 +312,7 @@ var UrlEncodeDecodeComponent = (function () {
     }
     ;
     UrlEncodeDecodeComponent.prototype.ngOnInit = function () {
-        this.titleService.setTitle(this.titleService.getTitle() + ' URL Encoder/Decoder');
+        this.titleService.setTitle('VivRan || URL Encoder/Decoder');
     };
     // events
     UrlEncodeDecodeComponent.prototype.onTyping = function (event) {
