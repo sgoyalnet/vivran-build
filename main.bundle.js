@@ -61,7 +61,7 @@ exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-b
 
 
 // module
-exports.push([module.i, ".nav-tabs>li.active>a,\r\n.nav-tabs>li.active>a:focus,\r\n.nav-tabs>li.active>a:hover {\r\n  border-top-color: transparent;\r\n}\r\n\r\n.nav-tabs>li>a:active, .nav-tabs>li>a:focus, .nav-tabs>li>a:hover {\r\n  border-top-color: transparent;\r\n}\r\n\r\n.brand-viv {\r\n  border-right-width: 1px !important;\r\n  border-right-color: #ddd !important;\r\n}\r\n\r\n.header-bar {\r\n    height: 3px;\r\n    background-color: #0088ce;\r\n    margin-bottom: 1px;\r\n}\r\n.parent {\r\n  min-height:100%;\r\n  position: relative;\r\n}\r\nfooter {\r\n  padding-top: 10px;\r\n  position:absolute;\r\n  bottom:-20;\r\n  right:10px;\r\n}", ""]);
+exports.push([module.i, ".nav-tabs>li.active>a,\r\n.nav-tabs>li.active>a:focus,\r\n.nav-tabs>li.active>a:hover {\r\n    border-top-color: transparent;\r\n}\r\n\r\n.nav-tabs>li>a:active,\r\n.nav-tabs>li>a:focus,\r\n.nav-tabs>li>a:hover {\r\n    border-top-color: transparent;\r\n}\r\n\r\n.brand-viv {\r\n    border-right-width: 1px !important;\r\n    border-right-color: #ddd !important;\r\n}\r\n\r\n.header-bar {\r\n    height: 3px;\r\n    background-color: #0088ce;\r\n    margin-bottom: 1px;\r\n}\r\n\r\n.parent {\r\n    min-height: 100%;\r\n    position: relative;\r\n}\r\n\r\nfooter {\r\n    padding-top: 50px;\r\n    position: absolute;\r\n    bottom: -20;\r\n    width: 100%;\r\n    text-align: center;\r\n    /*right: 10px;*/\r\n}\r\n\r\n.footer-logo {\r\n    padding-top: 40px;\r\n    text-align: center;\r\n    width: 100%;\r\n}", ""]);
 
 // exports
 
@@ -74,7 +74,7 @@ module.exports = module.exports.toString();
 /***/ "../../../../../src/app/app.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"parent\">\n\t<div class=\"header-bar\"></div>\n\t<ul class=\"nav nav-tabs\" id=\"headerTab\">\n\t\t<li><a class=\"brand-viv\"><b>VivRan</b></a></li>\n\t\t<li routerLinkActive=\"active\" class=\"hidden-xs\"><a routerLink=\"/urlencodedecode\">URL Encoder/Decoder</a></li>\n\t\t<li routerLinkActive=\"active\" class=\"hidden-xs\"><a routerLink=\"/base64encodedecode\">Base64 Encoder/Decoder</a></li>\n\t\t<li class=\"dropdown visible-xs\">\n\t\t\t<a class=\"dropdown-toggle\" data-toggle=\"dropdown\">\n\t\t\t\tMenu <span class=\"caret\"></span>\n\t\t\t</a>\n\t\t\t<ul class=\"dropdown-menu\" role=\"menu\">\n\t\t\t\t<li routerLinkActive=\"active\"><a routerLink=\"/urlencodedecode\">URL Encoder/Decoder</a></li>\n\t\t\t\t<li routerLinkActive=\"active\"><a routerLink=\"/base64encodedecode\">Base64 Encoder/Decoder</a></li>\n\t\t\t</ul>\n  \t\t</li>\n\t</ul>\n\t<div class=\"container-fluid\">\n\t\t<router-outlet></router-outlet>\n\t</div>\n\t<footer class=\"pull-right\">&copy; <a href=\"https://sgoyal.net\">sgoyal.net</a></footer>\n</div>"
+module.exports = "<div class=\"parent\">\r\n    <div class=\"header-bar\"></div>\r\n    <ul class=\"nav nav-tabs\" id=\"headerTab\">\r\n        <li>\r\n            <a class=\"brand-viv\"><img src=\"../assets/imgs/vivran_logo.png\" /></a>\r\n        </li>\r\n        <li routerLinkActive=\"active\" class=\"hidden-xs\"><a routerLink=\"/urlencodedecode\">URL Encoder/Decoder</a></li>\r\n        <li routerLinkActive=\"active\" class=\"hidden-xs\"><a routerLink=\"/base64encodedecode\">Base64 Encoder/Decoder</a></li>\r\n        <li class=\"dropdown visible-xs\">\r\n            <a class=\"dropdown-toggle\" data-toggle=\"dropdown\">\r\n\t\t\t\tMenu <span class=\"caret\"></span>\r\n\t\t\t</a>\r\n            <ul class=\"dropdown-menu\" role=\"menu\">\r\n                <li routerLinkActive=\"active\"><a routerLink=\"/urlencodedecode\">URL Encoder/Decoder</a></li>\r\n                <li routerLinkActive=\"active\"><a routerLink=\"/base64encodedecode\">Base64 Encoder/Decoder</a></li>\r\n            </ul>\r\n        </li>\r\n    </ul>\r\n    <div class=\"container-fluid\">\r\n        <router-outlet></router-outlet>\r\n    </div>\r\n    <footer>\r\n        <hr>\r\n        <div>&copy; 2017 VivRan is a practise project by <a href=\"https://sgoyal.net\">sgoyal.net</a></div>\r\n        <div class=\"footer-logo\"><img src=\"../assets/imgs/vivran_logo_big_grey.png\" /></div>\r\n\r\n    </footer>\r\n</div>"
 
 /***/ }),
 
@@ -182,7 +182,7 @@ var Base64EncodeDecodeComponent = (function () {
     }
     ;
     Base64EncodeDecodeComponent.prototype.ngOnInit = function () {
-        this.titleService.setTitle('VivRan || Base64 Encoder/Decoder');
+        this.titleService.setTitle('VivRan Base64 Encoder/Decoder');
     };
     // events
     Base64EncodeDecodeComponent.prototype.onTyping = function (event) {
@@ -312,7 +312,7 @@ var UrlEncodeDecodeComponent = (function () {
     }
     ;
     UrlEncodeDecodeComponent.prototype.ngOnInit = function () {
-        this.titleService.setTitle('VivRan || URL Encoder/Decoder');
+        this.titleService.setTitle('VivRan URL Encoder/Decoder');
     };
     // events
     UrlEncodeDecodeComponent.prototype.onTyping = function (event) {
@@ -419,13 +419,8 @@ module.exports = "<form>\r\n\t<div class=\"row\">\r\n\t\t<div class=\"col-md-6\"
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return environment; });
-// The file contents for the current environment will overwrite these during build.
-// The build system defaults to the dev environment which uses `environment.ts`, but if you do
-// `ng build --env=prod` then `environment.prod.ts` will be used instead.
-// The list of which env maps to which file can be found in `.angular-cli.json`.
-// The file contents for the current environment will overwrite these during build.
 var environment = {
-    production: false
+    production: true
 };
 //# sourceMappingURL=environment.js.map
 
