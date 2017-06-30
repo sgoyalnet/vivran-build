@@ -13,7 +13,7 @@
     <link href="assets/patternfly/css/patternfly.min.css" rel="stylesheet" media="screen, print">
     <link href="assets/patternfly/css/patternfly-additions.min.css" rel="stylesheet" media="screen, print">
     <link href="assets/css/global.css" rel="stylesheet" media="screen, print">
-</head>
+<link href="styles.d41d8cd98f00b204e980.bundle.css" rel="stylesheet"/></head>
 
 <body>
     <app-root></app-root>
@@ -40,7 +40,17 @@
         ga('create', 'UA-100792161-1', 'auto');
         ga('send', 'pageview');
     </script>
-<script type="text/javascript" src="inline.bundle.js"></script><script type="text/javascript" src="polyfills.bundle.js"></script><script type="text/javascript" src="styles.bundle.js"></script><script type="text/javascript" src="vendor.bundle.js"></script><script type="text/javascript" src="main.bundle.js"></script>
-    </body>
+    <script type="text/javascript">
+        (sc_adv_out = window.sc_adv_out || []).push({
+            id : "368767",
+            domain : "n.ads3-adnow.com"
+        });
+         (sc_adv_out = window.sc_adv_out || []).push({
+            id : "368771",
+            domain : "n.ads3-adnow.com"
+        });
+    </script>
+    <script type="text/javascript" src="//st-n.ads3-adnow.com/js/adv_out.js"></script>
+<script type="text/javascript" src="inline.90cf6a4994981f418cdb.bundle.js"></script><script type="text/javascript" src="polyfills.07685bca73161be59257.bundle.js"></script><script type="text/javascript" src="vendor.6b677bca1fb9aee239dc.bundle.js"></script><script type="text/javascript" src="main.c6fe6ed89f3c1eda0ea0.bundle.js"></script></body>
 
 </html>
